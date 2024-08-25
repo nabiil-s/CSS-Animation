@@ -7,3 +7,22 @@ body{
   margin: 0;
   padding: 0;
 }
+
+#container{
+  text-align: center;
+}
+
+#main{
+  border: 1px solid black;
+  height:100%;
+  padding: 50px;
+}
+
+.healthyLivingTitle{
+  padding-bottom: 20px;
+
+}
+
+.quote{
+  padding-top: 20px;
+}
