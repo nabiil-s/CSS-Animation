@@ -1,3 +1,4 @@
+/* Multiple Selector */
 *, body, #container{
   margin: 0px;
   padding: 0px;
@@ -29,11 +30,11 @@
   gap:50px;
   position: absolute;
   top:0px;
-  background: #000;
+  background: #0000004a;
   height: 100%;
   width: 100%;
   color: #fff;
-  mix-blend-mode: multiply;
+  mix-blend-mode: normal;
 }
 
 .healthyLivingTitle{
@@ -43,4 +44,10 @@
 }
 .quote{
   padding-top: 20px;
+}
+
+p{
+  font-weight: bolder;
+  font-size: 18px;
+  padding: 0 80px;
 }
