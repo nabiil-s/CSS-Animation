@@ -19,7 +19,7 @@
 
 /* ----------------------------- Banner ------------------------- */
 #main {
-  border-bottom: 6px solid black;
+/*  border-bottom: px solid black;*/
 }
 
 #main video{
@@ -50,16 +50,34 @@
   padding-top: 20px;
 }
 
-.bannerText{
+.bannerText, .bannerQuote{
   font-weight: bolder;
-  font-size: 18px;
+  font-size: 19px;
   padding: 0 80px;
+  letter-spacing: 1.6px;
+}
+
+/* ------------------------------- Fruits & Veg Section ---------------------------- */
+
+.healthyFood{
+  padding: 30px 30px;
+}
+
+.FruitsVegTitle{
+  font-size: 37px;
+}
+
+.fruitsVegCard{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin:20px 0px;
+  padding:20px;
 }
 
 /* ------------------------------- Footer ---------------------------- */
 
 footer{
-  border-top: 1px solid;
   background: #6e919c;
   color: white;
   padding: 12px 0px;
