@@ -1,28 +1,46 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-
-body{
-  margin: 0;
-  padding: 0;
+*, body, #container{
+  margin: 0px;
+  padding: 0px;
 }
 
 #container{
+  width:100%;
+  height:100vh;
+  position:relative;
   text-align: center;
 }
 
 #main{
-  border: 1px solid black;
-  height:100%;
-  padding: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+#main video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:50px;
+  position: absolute;
+  top:0px;
+  background: #000;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  mix-blend-mode: multiply;
 }
 
 .healthyLivingTitle{
+  font-size: 100px;
   padding-bottom: 20px;
 
 }
-
 .quote{
   padding-top: 20px;
 }
