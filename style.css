@@ -1,4 +1,4 @@
-/* ----------------------------- Multiple Selector ------------------------- */
+/* ------------------------------ Multiple Selector -------------------------- */
 
 *, body, #container{
   margin: 0px;
@@ -17,9 +17,9 @@
   height: 100%;
 }
 
-/* ----------------------------- Banner ------------------------- */
+/* ------------------------------------ Banner --------------------------------- */
 #main {
-/*  border-bottom: px solid black;*/
+/*  border-bottom: 1px solid black;*/
 }
 
 #main video{
@@ -44,8 +44,17 @@
 .healthyLivingTitle{
   font-size: 100px;
   padding-bottom: 20px;
-
+  position: relative;
+  animation: bannerHeading;
+  animation-duration: 3.2s;
+  animation-fill-mode: forwards;
 }
+
+@keyframes bannerHeading{
+  0%{top:-350px;}
+  100% {top:0px;}
+}
+
 .bannerQuote{
   padding-top: 20px;
 }
@@ -55,12 +64,23 @@
   font-size: 19px;
   padding: 0 80px;
   letter-spacing: 1.6px;
+  position: relative;
+  animation: bannerText;
+  animation-duration: 4.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bannerText{
+    0%{left:-1200px;}
+  100% {left:0px;}
 }
 
 /* ------------------------------- Fruits & Veg Section ---------------------------- */
 
 .healthyFood{
-  padding: 30px 30px;
+  background: #eaf5ff;
+  padding: 30px 30px 20px;
+
 }
 
 .FruitsVegTitle{
@@ -70,16 +90,19 @@
 .fruitsVegCard{
   display: flex;
   flex-direction: column;
+   background: #fff;
   border: 1px solid black;
   margin:20px 0px;
   padding:20px;
 }
 
-/* ------------------------------- Footer ---------------------------- */
+/* -------------------------------------- Footer ------------------------------------ */
 
 footer{
   background: #6e919c;
   color: white;
-  padding: 12px 0px;
-  font-size: 19px;
+  padding: 20px 0px;
+  font-size: 20px;
+  letter-spacing: 1.1px;
+  text-transform: capitalize;
 }
