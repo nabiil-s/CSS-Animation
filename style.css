@@ -95,6 +95,11 @@
   border: 1px solid black;
   margin:20px 0px;
   padding:20px;
+  cursor: default;
+}
+
+.fruitsVegCard:hover {
+    background-color: #f0eafa;
 }
 
 .fruitsVegCard ul{
