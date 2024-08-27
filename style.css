@@ -20,6 +20,7 @@
 /* ------------------------------------ Banner --------------------------------- */
 #main {
 /*  border-bottom: 1px solid black;*/
+  cursor: default;
 }
 
 #main video{
@@ -90,12 +91,21 @@
 .fruitsVegCard{
   display: flex;
   flex-direction: column;
-   background: #fff;
+  background: #fff;
   border: 1px solid black;
   margin:20px 0px;
   padding:20px;
 }
 
+.fruitsVegCard ul{
+  margin: 20px 20px 10px;
+}
+
+.fruitsVegCard li{
+  list-style: square;
+  text-align: left;
+  padding: 6px 6px;
+}
 /* -------------------------------------- Footer ------------------------------------ */
 
 footer{
