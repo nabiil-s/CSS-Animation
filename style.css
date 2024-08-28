@@ -96,10 +96,14 @@
   margin:20px 0px;
   padding:20px;
   cursor: default;
+  transition-property: background-color;
+  transition-duration: 2.3s;
 }
+
 
 .fruitsVegCard:hover {
     background-color: #f0eafa;
+    border: 3px double #7371a3;
 }
 
 .fruitsVegCard ul{
