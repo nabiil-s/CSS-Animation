@@ -72,7 +72,7 @@
 }
 
 @keyframes bannerText{
-    0%{left:-1200px;}
+  0%{left:-1200px;}
   100% {left:0px;}
 }
 
@@ -92,7 +92,7 @@
   display: flex;
   flex-direction: column;
   background: #fff;
-  border: 1px solid black;
+  border: 1.5px solid black;
   margin:20px 0px;
   padding:20px;
   cursor: default;
@@ -102,8 +102,8 @@
 
 
 .fruitsVegCard:hover {
-    background-color: #f0eafa;
-    border: 3px double #7371a3;
+  background-color: #f0eafa;
+  border: 1.5px outset #7371a3;
 }
 
 .fruitsVegCard ul{
@@ -115,6 +115,16 @@
   text-align: left;
   padding: 6px 6px;
 }
+
+.benefitsParagraphMin{
+  display: none; 
+}
+
+.benefitsParagraphMin li{
+  padding: 2px 6px;
+  list-style: circle;
+}
+
 /* -------------------------------------- Footer ------------------------------------ */
 
 footer{
@@ -124,4 +134,25 @@ footer{
   font-size: 20px;
   letter-spacing: 1.1px;
   text-transform: capitalize;
+}
+
+/* =================================== Media Query ================================= */
+
+@media (max-width: 780px){
+  .benefitsParagraphMax{
+    display: none;
+  }
+
+  .fruitsVegCard ul{
+    margin: 20px 10px 5px;
+  }
+
+  ul.benefitsParagraphMin {
+    margin: 10px;
+  }
+
+  .benefitsParagraphMin{
+    display: block;
+    padding: 0px 5px;
+  }
 }
